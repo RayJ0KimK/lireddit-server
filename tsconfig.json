@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2017",
+    "target": "es6",
     "module": "commonjs",
     "lib": [
       "dom",
@@ -18,7 +18,7 @@
     "strictFunctionTypes": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": false,
+    "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "allowSyntheticDefaultImports": true,
@@ -32,6 +32,7 @@
     "node_modules"
   ],
   "include": [
+    "./src/**/*.tsx",
     "./src/**/*.ts"
   ]
 }
